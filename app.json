@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "BudgetTracker",
+    "slug": "budget-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#141414",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#141414"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "net.ankan.budgettracker"
+    },
+    "android": {
+      "package": "net.ankan.budgettracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#141414"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e56b08f0-9691-427f-8d84-ba832dae63fa"
+      }
+    },
+    "owner": "ankanit24",
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
